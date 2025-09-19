@@ -1,0 +1,13 @@
+{
+  "model": "yolov8n.pt",
+  "sample_counts": {},
+  "notes": "Using pretrained YOLOv8n and helmet detection models",
+  "helmet_count_in_sample": "not available",
+  "helmet_detection_status": "Skipped - No valid sample image or helmet model",
+  "video_statistics": {
+    "cars": 1631,
+    "trucks": 952,
+    "buses": 243,
+    "total_frames": 307
+  }
+}

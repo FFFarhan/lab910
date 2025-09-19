@@ -1,0 +1,20 @@
+Model Performance and Analysis
+The object detection model used is YOLOv8n.pt, a lightweight and fast version of the YOLO (You Only Look Once) architecture. It was trained using a combination of a pre-trained YOLOv8n model and a custom helmet detection model. The model's performance is impressive, with a processing speed of 5.2ms for pre-processing, 20.6ms for inference, and 3.2ms for post-processing per image. This speed makes it highly suitable for real-time applications like video analysis.
+
+Sample Images
+The following images demonstrate the model's ability to accurately detect and classify various objects, including people, motorcycles, cars, trucks, and buses. The bounding boxes around each object show the classification and a confidence score (from 0 to 1), indicating the model's certainty about its prediction.
+
+Motorcycle and Person Detection
+The first image  shows the model effectively detecting people and motorcycles in a high-traffic urban setting. Each bounding box correctly identifies the object and provides a high confidence score, demonstrating the model's accuracy even with multiple overlapping objects. For example, the model correctly identifies a "person" with a confidence score of 0.87 and a "motorcycle" with a score of 0.71.
+
+Vehicle Detection on a Highway
+The second image  showcases the model's performance on a highway. It accurately detects and classifies cars, trucks, and a bus. The confidence scores are consistently high, such as the "truck" at 0.92 and the "car" at 0.86, confirming the model's robustness in different environments and with various object types.
+
+Video Analysis and Statistics
+The model was used to analyze a video with 307 total frames. The cumulative detection counts for various vehicles are as follows:
+
+Total Cars Detected: 1631
+
+Total Trucks Detected: 952
+
+Total Buses Detected: 243
